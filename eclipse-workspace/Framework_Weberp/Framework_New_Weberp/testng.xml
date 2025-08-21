@@ -1,0 +1,10 @@
+<suite name="Weberp">
+    <test name="Tests">
+        <classes>
+            <class name="com.Weberp.qa.testcases.HomePageTest"/>
+             </classes>
+    </test>
+    <listeners>
+	   <listener class-name="com.hoteladactin.qa.listener.ExtentReportListener"/>
+	</listeners>
+</suite>

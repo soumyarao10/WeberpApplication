@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-21T13:41:18 AEST" name="Default suite" finished-at="2025-08-21T13:44:28 AEST" duration-ms="190000">
+    <groups>
+    </groups>
+    <test started-at="2025-08-21T13:41:18 AEST" name="Default test" finished-at="2025-08-21T13:44:28 AEST" duration-ms="190000">
+      <class name="com.Weberp.qa.testcases.SalesPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:41:18 AEST" name="setUp" finished-at="2025-08-21T13:41:20 AEST" duration-ms="2067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNewSalesOrderNavigation()[pri:1, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:41:20 AEST" name="testNewSalesOrderNavigation" finished-at="2025-08-21T13:41:39 AEST" duration-ms="19541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewSalesOrderNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:41:39 AEST" name="tearDown" finished-at="2025-08-21T13:41:40 AEST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:41:40 AEST" name="setUp" finished-at="2025-08-21T13:41:41 AEST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEnterCounterSalesNavigation()[pri:2, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:41:41 AEST" name="testEnterCounterSalesNavigation" finished-at="2025-08-21T13:42:01 AEST" duration-ms="20160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterCounterSalesNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:42:01 AEST" name="tearDown" finished-at="2025-08-21T13:42:01 AEST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:42:01 AEST" name="setUp" finished-at="2025-08-21T13:42:03 AEST" duration-ms="1947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEnterCounterReturnsNavigation()[pri:3, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:42:03 AEST" name="testEnterCounterReturnsNavigation" finished-at="2025-08-21T13:42:21 AEST" duration-ms="17933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterCounterReturnsNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:42:21 AEST" name="tearDown" finished-at="2025-08-21T13:42:21 AEST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:42:21 AEST" name="setUp" finished-at="2025-08-21T13:42:23 AEST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGeneratePickingListsNavigation()[pri:4, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:42:23 AEST" name="testGeneratePickingListsNavigation" finished-at="2025-08-21T13:42:41 AEST" duration-ms="18670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGeneratePickingListsNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:42:41 AEST" name="tearDown" finished-at="2025-08-21T13:42:41 AEST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:42:41 AEST" name="setUp" finished-at="2025-08-21T13:42:43 AEST" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOutstandingSalesOrdersNavigation()[pri:5, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:42:43 AEST" name="testOutstandingSalesOrdersNavigation" finished-at="2025-08-21T13:43:02 AEST" duration-ms="19657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOutstandingSalesOrdersNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:43:02 AEST" name="tearDown" finished-at="2025-08-21T13:43:03 AEST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:43:03 AEST" name="setUp" finished-at="2025-08-21T13:43:04 AEST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSpecialOrderNavigation()[pri:6, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:43:04 AEST" name="testSpecialOrderNavigation" finished-at="2025-08-21T13:43:24 AEST" duration-ms="19574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecialOrderNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:43:24 AEST" name="tearDown" finished-at="2025-08-21T13:43:24 AEST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:43:24 AEST" name="setUp" finished-at="2025-08-21T13:43:27 AEST" duration-ms="3245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRecurringOrderTemplateNavigation()[pri:7, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:43:27 AEST" name="testRecurringOrderTemplateNavigation" finished-at="2025-08-21T13:43:49 AEST" duration-ms="21679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecurringOrderTemplateNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:43:49 AEST" name="tearDown" finished-at="2025-08-21T13:43:49 AEST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:43:49 AEST" name="setUp" finished-at="2025-08-21T13:43:53 AEST" duration-ms="3937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProcessRecurringOrderNavigation()[pri:8, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:43:53 AEST" name="testProcessRecurringOrderNavigation" finished-at="2025-08-21T13:44:09 AEST" duration-ms="15979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcessRecurringOrderNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:44:09 AEST" name="tearDown" finished-at="2025-08-21T13:44:09 AEST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:44:09 AEST" name="setUp" finished-at="2025-08-21T13:44:11 AEST" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMaintainPickingListavigation()[pri:9, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:44:11 AEST" name="testMaintainPickingListavigation" finished-at="2025-08-21T13:44:28 AEST" duration-ms="16859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaintainPickingListavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Weberp.qa.testcases.SalesPageTest@6356695f]" started-at="2025-08-21T13:44:28 AEST" name="tearDown" finished-at="2025-08-21T13:44:28 AEST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Weberp.qa.testcases.SalesPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
