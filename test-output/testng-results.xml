@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-22T12:37:15 AEST" name="Default suite" finished-at="2025-08-22T12:38:11 AEST" duration-ms="55848">
+    <groups>
+    </groups>
+    <test started-at="2025-08-22T12:37:15 AEST" name="Default test" finished-at="2025-08-22T12:38:11 AEST" duration-ms="55848">
+      <class name="com.Weberp.qa.testcases.ReceivablesPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:16 AEST" name="setUp" finished-at="2025-08-22T12:37:25 AEST" duration-ms="8929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectOrderToInvoiceNavigation()[pri:1, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:25 AEST" name="testSelectOrderToInvoiceNavigation" finished-at="2025-08-22T12:37:27 AEST" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOrderToInvoiceNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:27 AEST" name="setUp" finished-at="2025-08-22T12:37:30 AEST" duration-ms="2653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateCreditNoteNavigation()[pri:2, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:30 AEST" name="testCreateCreditNoteNavigation" finished-at="2025-08-22T12:37:30 AEST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCreditNoteNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:30 AEST" name="setUp" finished-at="2025-08-22T12:37:32 AEST" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEnterCustomerPaymentsNavigation()[pri:3, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:32 AEST" name="testEnterCustomerPaymentsNavigation" finished-at="2025-08-22T12:37:33 AEST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterCustomerPaymentsNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:33 AEST" name="setUp" finished-at="2025-08-22T12:37:35 AEST" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAllocateCustomerPaymentsNavigation()[pri:4, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:35 AEST" name="testAllocateCustomerPaymentsNavigation" finished-at="2025-08-22T12:37:35 AEST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllocateCustomerPaymentsNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:35 AEST" name="setUp" finished-at="2025-08-22T12:37:38 AEST" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWhereAllocatedInquiryNavigation()[pri:5, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:38 AEST" name="testWhereAllocatedInquiryNavigation" finished-at="2025-08-22T12:37:38 AEST" duration-ms="349" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Did not navigate to Customer How Paid Inquiry page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Did not navigate to Customer How Paid Inquiry page expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.Weberp.qa.testcases.ReceivablesPageTest.testWhereAllocatedInquiryNavigation(ReceivablesPageTest.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWhereAllocatedInquiryNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:38 AEST" name="setUp" finished-at="2025-08-22T12:37:41 AEST" duration-ms="2749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPrintInvoicesOrCreditNotesNavigation()[pri:6, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:41 AEST" name="testPrintInvoicesOrCreditNotesNavigation" finished-at="2025-08-22T12:37:41 AEST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrintInvoicesOrCreditNotesNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:41 AEST" name="setUp" finished-at="2025-08-22T12:37:44 AEST" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPrintStatementsNavigation()[pri:7, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:44 AEST" name="testPrintStatementsNavigation" finished-at="2025-08-22T12:37:44 AEST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrintStatementsNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:44 AEST" name="setUp" finished-at="2025-08-22T12:37:46 AEST" duration-ms="2451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAgedCustomerBalancesOverdueReportNavigation()[pri:8, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:46 AEST" name="testAgedCustomerBalancesOverdueReportNavigation" finished-at="2025-08-22T12:37:47 AEST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgedCustomerBalancesOverdueReportNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:47 AEST" name="setUp" finished-at="2025-08-22T12:37:51 AEST" duration-ms="4561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testReprintDepositListingNavigation()[pri:9, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:51 AEST" name="testReprintDepositListingNavigation" finished-at="2025-08-22T12:37:52 AEST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReprintDepositListingNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:52 AEST" name="setUp" finished-at="2025-08-22T12:37:54 AEST" duration-ms="2395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDebtorBalancesAtPriorMonthEndNavigation()[pri:10, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:54 AEST" name="testDebtorBalancesAtPriorMonthEndNavigation" finished-at="2025-08-22T12:37:54 AEST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDebtorBalancesAtPriorMonthEndNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:54 AEST" name="setUp" finished-at="2025-08-22T12:37:57 AEST" duration-ms="2324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCustomerListingByAreaSalespersonNavigation()[pri:11, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:57 AEST" name="testCustomerListingByAreaSalespersonNavigation" finished-at="2025-08-22T12:37:57 AEST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerListingByAreaSalespersonNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:57 AEST" name="setUp" finished-at="2025-08-22T12:37:59 AEST" duration-ms="2313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testListDailyTransactionsNavigation()[pri:12, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:37:59 AEST" name="testListDailyTransactionsNavigation" finished-at="2025-08-22T12:38:00 AEST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListDailyTransactionsNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:38:00 AEST" name="setUp" finished-at="2025-08-22T12:38:02 AEST" duration-ms="2250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCustomerTransactionInquiriesNavigation()[pri:13, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:38:02 AEST" name="testCustomerTransactionInquiriesNavigation" finished-at="2025-08-22T12:38:02 AEST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerTransactionInquiriesNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:38:02 AEST" name="setUp" finished-at="2025-08-22T12:38:05 AEST" duration-ms="2993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCustomerActivityBalancesNavigation()[pri:14, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:38:05 AEST" name="testCustomerActivityBalancesNavigation" finished-at="2025-08-22T12:38:05 AEST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerActivityBalancesNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:38:05 AEST" name="setUp" finished-at="2025-08-22T12:38:08 AEST" duration-ms="2377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerNavigation()[pri:15, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:38:08 AEST" name="testAddCustomerNavigation" finished-at="2025-08-22T12:38:08 AEST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerNavigation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:38:08 AEST" name="setUp" finished-at="2025-08-22T12:38:11 AEST" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectCustomerNavigation()[pri:16, instance:com.Weberp.qa.testcases.ReceivablesPageTest@4f6ee6e4]" started-at="2025-08-22T12:38:11 AEST" name="testSelectCustomerNavigation" finished-at="2025-08-22T12:38:11 AEST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectCustomerNavigation -->
+      </class> <!-- com.Weberp.qa.testcases.ReceivablesPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
