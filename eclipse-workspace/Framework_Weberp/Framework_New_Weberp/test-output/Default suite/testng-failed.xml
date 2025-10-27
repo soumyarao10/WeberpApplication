@@ -5,15 +5,8 @@
     <classes>
       <class name="com.Weberp.qa.testcases.SalesPageTest">
         <methods>
-          <include name="testMaintainPickingListavigation"/>
-          <include name="testNewSalesOrderNavigation"/>
+          <include name="testCommonlyUsedScripts"/>
           <include name="setUp"/>
-          <include name="testSpecialOrderNavigation"/>
-          <include name="testGeneratePickingListsNavigation"/>
-          <include name="testProcessRecurringOrderNavigation"/>
-          <include name="testOutstandingSalesOrdersNavigation"/>
-          <include name="testRecurringOrderTemplateNavigation"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.Weberp.qa.testcases.SalesPageTest -->
     </classes>
